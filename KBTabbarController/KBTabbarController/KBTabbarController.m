@@ -62,7 +62,9 @@
     
     NSLog(@"点击了中间");
     
+    UIAlertView *alert = [[UIAlertView alloc]initWithTitle:@"提示" message:@"点击了中间按钮" delegate:nil cancelButtonTitle:@"确定" otherButtonTitles:nil, nil];
     
+    [alert show];
     
     
 
